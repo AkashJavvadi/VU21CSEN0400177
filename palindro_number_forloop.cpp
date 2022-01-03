@@ -4,7 +4,7 @@ main()
 	int r,d,n,x;
 	scanf("%d",&n);
 	x=n;
- while (n>0)
+ for (r=0;n>0;)
 	{
 	d=n%10;
 	r=r*10+d;
